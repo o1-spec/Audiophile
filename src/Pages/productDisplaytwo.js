@@ -11,7 +11,7 @@ function ProductDisplayTwo({category, product }) {
           See Product
         </Link>
       </div>
-      <div>
+      <div className="pro-img">
         <img src={product.imageUrl} alt="" />
       </div>
     </div>

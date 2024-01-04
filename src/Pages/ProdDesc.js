@@ -10,7 +10,7 @@ function ProdDesc({ selectedProduct }) {
             <Link to={`/${selectedProduct.category}`}>Go Back</Link>
           </div>
           <div className="prod-describe">
-            <div className=".desc-img">
+            <div className="desc-img">
               <img src={selectedProduct.imageUrl} alt={selectedProduct.name} />
             </div>
             <div className="desc-text">

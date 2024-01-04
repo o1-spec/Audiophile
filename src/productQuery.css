@@ -1,0 +1,159 @@
+@media(max-width: 1000px){
+    .product-cont{
+        gap: 5rem;
+    }
+
+    .prod-describe{
+        gap: 4rem;
+    }
+
+    .desc-img{
+        width: 80vw;
+    }
+
+    .product-description{
+        max-width: fit-content;
+        padding: 9rem 3rem 0rem 3rem;
+    }
+}
+
+@Media(max-width: 900px){
+    .product-cont{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prodd-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .prod-text{
+        max-width: 40rem;
+    }
+
+    .product-cont:nth-child(2){
+        display: grid;
+    }
+
+    .pro-img{
+        grid-column: 1;
+        grid-row: 1;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+@media(max-width: 700px){
+    .product-description{
+        padding-top: 5rem;
+    }
+}
+
+@media(max-width: 600px){
+    .product-cont img{
+        width: 65vw;
+    }
+
+    .prod-describe{
+        flex-direction: column;
+    }
+
+    .desc-img img{
+        width: 60vw;
+    }
+    
+    .product-images{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .prod-img:nth-child(2){
+        grid-row: 3;
+    }
+
+    .prod-img:nth-child(3){
+        transform: translateY(0rem);
+    }
+
+    .prod-img:nth-child(1){
+        transform: translateY(0rem);
+    }
+
+    .also-like{
+        padding-top: 51rem;
+    }
+
+    .like{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px){
+    .prod-text{
+        max-width: fit-content;
+        font-size: 1.45rem;
+        padding: 0rem 2rem;
+    }
+    
+    .prodd-info{
+        padding: 0rem 2rem;
+    }
+
+    .product-cont img{
+        width: 70vw;
+    }
+
+    .product-description{
+        padding: 5rem 2rem 0rem 2rem;
+    }
+
+    .features p{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .features h3{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 450px){
+    .product-cont img{
+        width: 75vw;
+    }
+
+    .prodd-info{
+        padding: 0rem 1rem;
+    }
+
+    .display-section{
+        padding-top: 8rem;
+    }
+
+    .desc-img{
+        width: 85vw;
+    }
+
+    .desc-img img{
+        width: 100%;
+    }
+
+    .product-description{
+        padding-top: 2.8rem;
+    }
+
+    .back{
+        padding-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 420px){
+    .product-cont img{
+        width: 85vw;
+    }
+}
